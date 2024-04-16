@@ -1,0 +1,40 @@
+Generating 1000000 random numbers
+Starting system sort
+sort: No such file or directory
+
+real	0m0.013s
+user	0m0.001s
+sys	0m0.006s
+Starting mysort
+./sortrace.sh: line 20: ./mysort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.002s
+sort: No such file or directory
+Generating 1000000 random numbers
+Generated 1000000 random numbers between -100000 and 100000 in numbers.dat
+Starting system sort
+
+real	0m1.213s
+user	0m1.169s
+sys	0m0.029s
+Starting mysort
+Sorted numbers written to mysort.out
+
+real	37m54.744s
+user	33m36.239s
+sys	0m2.512s
+Generating 1000000 random numbers
+Generated 100 random numbers between -100000 and 100000 in numbers.dat
+Starting system sort
+
+real	0m0.016s
+user	0m0.002s
+sys	0m0.007s
+Starting mysort
+Sorted numbers written to mysort.out
+
+real	0m0.010s
+user	0m0.002s
+sys	0m0.004s
